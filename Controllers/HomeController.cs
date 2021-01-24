@@ -12,7 +12,7 @@ namespace ConsumingApi.Controllers
     public class HomeController : Controller
     {
         //Hosted web API REST Service base url  
-        string Baseurl = "https://www.breakingbadapi.com/api/";
+        string Baseurl = "http://192.168.95.1:5555/";
         public async Task<ActionResult> Index()
         {
             List<Employee> EmpInfo = new List<Employee>();
